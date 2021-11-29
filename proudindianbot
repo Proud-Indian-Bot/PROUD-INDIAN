@@ -1,0 +1,69 @@
+
+
+_get_repolink () {
+    local regex
+    regex='(https?)://github.com/.+/.+'
+    if [[ $PROUD-INDIAN_REPO == "PROUD-INDIAN-BOT" ]]
+    then
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1Byb3VkLUluZGlhbi1Cb3QvUFJPVUQtSU5ESUFOLUJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+    elif [[ $PROUD-INDIAN_REPO == "PROUD-INDIAN-BOT" ]]
+    then
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1Byb3VkLUluZGlhbi1Cb3QvUFJPVUQtSU5ESUFOLUJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+    elif [[ $PROUD-INDIAN_REPO =~ $regex ]]
+    then
+        if [[ $PROUD-INDIAN_REPO_BRANCH ]]
+        then
+            echo "${PROUD-INDIAN_REPO}/archive/${PROUD-INDIAN_REPO_BRANCH}.zip"
+        else
+            echo "${PROUD-INDIAN_REPO}/archive/master.zip"
+        fi
+    else
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1Byb3VkLUluZGlhbi1Cb3QvUFJPVUQtSU5ESUFOLUJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+    fi
+}
+
+
+_setting_bot () {
+    local zippath
+    zippath="master.zip"
+    echo "  Downloading PROUD-INDIAN-BOT V3.O Source Code..."
+    wget -q $(_get_repolink) -O "$zippath"
+    echo "  Unpacking Data ..."
+    LEGENDPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
+    unzip -qq "$zippath"
+    echo "Done"
+    echo "  𝖕𝖗𝖔𝖚𝖉-𝖎𝖓𝖉𝖎𝖆𝖓-𝖇𝖔𝖙 V3.O Cleaning.."
+    rm -rf "$zippath"
+    sleep 5
+    cd $LEGENDPATH
+    echo "    ⚜️𝖕𝖗𝖔𝖚𝖉-𝖎𝖓𝖉𝖎𝖆𝖓-𝖇𝖔𝖙⚜️     "
+    echo"""
+██████╗░██████╗░░█████╗░██╗░░░██╗██████╗░
+██╔══██╗██╔══██╗██╔══██╗██║░░░██║██╔══██╗
+██████╔╝██████╔╝██║░░██║██║░░░██║██║░░██║
+██╔═══╝░██╔══██╗██║░░██║██║░░░██║██║░░██║
+██║░░░░░██║░░██║╚█████╔╝╚██████╔╝██████╔╝
+╚═╝░░░░░╚═╝░░╚═╝░╚════╝░░╚═════╝░╚═════╝░
+
+██╗███╗░░██╗██████╗░██╗░█████╗░███╗░░██╗
+██║████╗░██║██╔══██╗██║██╔══██╗████╗░██║
+██║██╔██╗██║██║░░██║██║███████║██╔██╗██║
+██║██║╚████║██║░░██║██║██╔══██║██║╚████║
+██║██║░╚███║██████╔╝██║██║░░██║██║░╚███║
+╚═╝╚═╝░░╚══╝╚═════╝░╚═╝╚═╝░░╚═╝╚═╝░░╚══╝
+
+██████╗░░█████╗░████████╗
+██╔══██╗██╔══██╗╚══██╔══╝
+██████╦╝██║░░██║░░░██║░░░
+██╔══██╗██║░░██║░░░██║░░░
+██████╦╝╚█████╔╝░░░██║░░░
+╚═════╝░░╚════╝░░░░╚═╝░░░"""
+    echo "
+    🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳🇮🇳
+    "
+
+    python3 ../setup/updater.py ../requirements.txt requirements.txt
+    python3 -m userbot
+}
+
+_setting_bot
