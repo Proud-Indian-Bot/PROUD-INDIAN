@@ -70,12 +70,12 @@
     },
     "OP_PIC": {
       "description": "Put here any telegraph media link for OP pic in .op command.",
-      "value": "",
+      "value": " https://telegra.ph/file/72c7dd54eb7212cdcbe4c.mp4",
       "required": false
     },
     "PING_PIC": {
       "description": "Put here any telegraph media link for PING pic in .ping command.",
-      "value": "",
+      "value": " https://telegra.ph/file/aca7843ee8a9c25d5677b.mp4",
       "required": false
     },
     "ALIVE_PIC": {
