@@ -1,5 +1,5 @@
 #Repo Clonning ⚡♥️
-RUN git clone https://github.com/The-LegendBot/LEGENDUSERBOT.git /root/userbot
+RUN git clone https://https://github.com/Proud-Indian-Bot/PROUD-INDIAN-BOT.git /root/userbot
 
 #working directory 
 WORKDIR /root/userbot
