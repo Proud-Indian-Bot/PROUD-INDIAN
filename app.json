@@ -1,17 +1,17 @@
 {
-  "name": "Lêɠêɳ̃dẞø†",
-  "description": "Tнє ßєѕτ υѕєяϐοτ мα∂є ϐγ Lêɠêɳ̃dẞøY. Made with Love And By Python Language With Hardwork... ❤ ",
-  "logo": "https://te.legra.ph/file/d17467283e73c884834a5.jpg",
+  "name": "𝖕𝖗𝖔𝖚𝖉-𝖎𝖓𝖉𝖎𝖆𝖓-𝖇𝖔𝖙",
+  "description": "𝖙𝖍𝖊 𝖇𝖊𝖘𝖙 𝖚𝖘𝖊𝖗𝖇𝖔𝖙 𝖒𝖆𝖉𝖊 𝖇𝖞 𝖆𝖌𝖔𝖗𝖆𝖘𝖜𝖆𝖒𝖞.𝖒𝖆𝖉𝖊 𝖜𝖎𝖙𝖍 𝖑𝖔𝖛𝖊 𝖆𝖓𝖉 𝖇𝖞 𝕻𝖞𝖙𝖍𝖔𝖓 𝖑𝖆𝖓𝖌𝖚𝖆𝖌𝖊 𝖜𝖎𝖙𝖍 𝖍𝖆𝖗𝖉𝖜𝖔𝖗𝖐... ❤ ",
+  "logo": "https://telegra.ph/file/4605803a2e47710627a6d.jpg",
   "keywords": [
     "telegram",
     "userbot",
     "plugin",
-    "legendbot",
+    "proud-indian",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/LEGEND-OS/LEGENDBOT/",
-  "website": "https://github.com/LEGEND-OS/LEGENDBOT/",
+  "repository": "https://github.com/https://github.com/Proud-Indian-Bot/PROUD-INDIAN/",
+  "website": "https://github.com/https://github.com/Proud-Indian-Bot/PROUD-INDIAN/",
   "success_url": "https://t.me/Legend_Userbot",
   "env": {
     "ENV": {
@@ -20,47 +20,47 @@
     },
     "ALIVE_NAME": {
       "description": "Fill your Full name. By default it is LEGEND User",
-      "value": "Lêɠêɳ̃dẞøY",
+      "value": "𝖆𝖌𝖔𝖗𝖆 𝖘𝖜𝖆𝖒𝖞 ",
       "required": false
     },
     "ALIVE_MSG": {
       "description": "Set Custom Alive Message When entering .alive Or .legend  Command.",
-      "value": "Lêɠêɳ̃dẞø† is Online",
+      "value": "𝖕𝖗𝖔𝖚𝖉-𝖎𝖓𝖉𝖎𝖆𝖓-𝖇𝖔𝖙 𝖎𝖘 𝖆𝖑𝖎𝖛𝖊 𝖎𝖓",
       "required": false
     },
     "ABUSE": {
       "description": " Set ON or OFF",
-      "value": "",
+      "value": "ON",
       "required" :true
     },
     "EXTRA_PLUGIN": {
       "description": "Set ON or OFF",
-      "value": "",
+      "value": "ON",
       "required" :true
     },
     "SPAM": {
       "description": "Set ON or OFF",
-      "value": "",
+      "value": "ON",
       "required" :true
     },
     "ASSISTANT": {
       "description": "Set ON or OFF",
-      "value": "",
+      "value": "ON",
       "required" :true
     },
     "YOUR_GROUP": {
       "description": "Set Ur Group Username",
-      "value": "@Legend_Userbot",
+      "value": "@indianuserbot",
       "required": false
     },
     "YOUR_CHANNEL": {
       "description": "Set Ur Channel Username",
-      "value": "@Official_LegendBot",
+      "value": "@proudindian_bot",
       "required": false
     },
     "BOY_OR_GIRL": {
       "description": "Set Boy Or Girl",
-      "value": "Boy",
+      "value": "BOY",
       "required": false
     },
     "AWAKE_PIC": {
@@ -80,17 +80,17 @@
     },
     "ALIVE_PIC": {
       "description": "Put here any telegraph media link for alive pic in .alive.",
-      "value": "",
+      "value": " https://telegra.ph/file/03242b293a905158fa7d0.mp4",
       "required": false
     },
     "ALIVE_EMOJI": {
       "description": "Put here any emoji. Which Will be Show When U Do .alive.",
-      "value": "",
+      "value": "💫",
       "required": false
     },
     "BIO_MSG": {
       "description": "Put Your Telegram Bio Here Required For Auto Bio.",
-      "value": "𝙸 𝚊𝚖 𝙻𝚎𝚐𝚎𝚗𝚍.",
+      "value": "𝙸 𝚊𝚖 proud to be an indian bot.",
       "required": true
     },
     "PM_PIC": {
@@ -100,7 +100,7 @@
     },
     "PM_MSG": {
       "description": "Enter Your custom pm permit msg.",
-      "value": "нєℓℓο ѕιя / мιѕѕ,\nρℓєαѕє ∂οи'τ τяγ το ѕραм мγ мαѕτєя οτнєяωιѕє υ ωιℓℓ ϐℓοϲκє∂ ϐγ 𝖑𝖊ɠêɳ̃dẞø✞︎ 🇮🇳.\nℑ ωιℓℓ яєρℓγ υ αƒτєя ϲοмє ϐαϲκ οиℓιиє,\nτнαиκγου!",
+      "value": "нєℓℓο ѕιя / мιѕѕ,\nρℓєαѕє ∂οи'τ τяγ το ѕραм мγ мαѕτєя οτнєяωιѕє υ ωιℓℓ ϐℓοϲκє∂ ϐγ мγ мαѕτєя  🇮🇳.\nℑ ωιℓℓ яєρℓγ υ αƒτєя ϲοмє ϐαϲκ οиℓιиє,\nτнαиκγου!",
       "required": false
     },
     "MAX_FLOOD_IN_PM": {
@@ -140,7 +140,7 @@
       "description": "Copy Group Id And paste here To Get Plugin Channel ID copy and paste here",
       "value": ""
     }, 
-    "LEGEND_STRING": {
+    "PROUD-INDIAN_STRING": {
       "description": "Get this value by running https://repl.it/@KrishnaJaiswal1/LEGENDBOT#main.py ",
       "value": ""
     },
@@ -174,12 +174,12 @@
     },
     "EMOJI_IN_HELP1": {
       "description": "Set The emojies You Want to Add In Help Command!!",
-      "value": "",
+      "value": "💫",
       "required": false
     },
     "EMOJI_IN_HELP2": {
       "description": "Set The emojies You Want to Add In Help Command!!",
-      "value": "",
+      "value": "💫",
       "required": false
     },
     "PM_DATA": {
