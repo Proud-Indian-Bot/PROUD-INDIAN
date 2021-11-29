@@ -1,11 +1,11 @@
 <h1 align="center">
-<b> 『Lêɠêɳ̃dẞø†』🇮🇳 </b>
+<b> 『𝖕𝖗𝖔𝖚𝖉-𝖎𝖓𝖉𝖎𝖆𝖓-𝖇𝖔𝖙』🇮🇳 </b>
 </h1>
 
-[![LEGENDBOT](https://telegra.ph/file/2dd82644aa7f19518fe60.jpg)](https://github.com/LEGENDS-OP/LEGENDUSERBOT)
+[![𝖕𝖗𝖔𝖚𝖉-𝖎𝖓𝖉𝖎𝖆𝖓-𝖇𝖔𝖙](https://telegra.ph/file/4605803a2e47710627a6d.jpg)](https://github.com/Proud-Indian-Bot/PROUD-INDIAN-BOT)
 
 <h6 align="center">
-  <b>⚡ LegendBot Is One Of The Fastest & Smoothest Bot On Telegram Based on Telethon⚡</b>
+  <b>⚡ 𝖕𝖗𝖔𝖚𝖉 𝖎𝖓𝖉𝖎𝖆𝖓 𝖇𝖔𝖙 𝖎𝖘 𝖔𝖓𝖊 𝖔𝖋 𝖙𝖍𝖊 𝖙𝖍𝖊𝖋𝖆𝖘𝖙𝖊𝖘𝖙 𝖆𝖓𝖉 𝖘𝖒𝖔𝖔𝖙𝖍𝖊𝖘𝖙 𝖇𝖔𝖙 𝖔𝖓 𝖙𝖊𝖑𝖊𝖌𝖗𝖆𝖒 𝖇𝖆𝖘𝖊𝖉 𝖔𝖓 𝖙𝖊𝖑𝖊𝖙𝖍𝖔𝖓 ⚡</b>
 </h6>
 
 <p align="center">
@@ -45,7 +45,7 @@
 ------------
 <h3> Dєρℓογ το нєяοκυ </h3>
 
-<a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FLEGEND-OS%2FLEGENDBOT&template=https%3A%2F%2Fgithub.com%2FLEGEND-OS%2FLEGENDBOT" rel="nofollow" style="background-color: initial; box-sizing: border-box; color: #0366d6; text-decoration-line: none;"><img alt="Deploy" data-canonical-src="https://www.herokucdn.com/deploy/button.svg" src="https://camo.githubusercontent.com/83b0e95b38892b49184e07ad572c94c8038323fb/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e737667" style="border-style: none; box-sizing: initial; max-width: 100%;" /></a></div>
+<a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FProud-Indian-Bot%2FPROUD-INDIAN&template=https%3A%2F%2Fgithub.com%2FProud-Indian-Bot%2FPROUD-INDIAN" rel="nofollow" style="background-color: initial; box-sizing: border-box; color: #0366d6; text-decoration-line: none;"><img alt="Deploy" data-canonical-src="https://www.herokucdn.com/deploy/button.svg" src="https://camo.githubusercontent.com/83b0e95b38892b49184e07ad572c94c8038323fb/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e737667" style="border-style: none; box-sizing: initial; max-width: 100%;" /></a></div>
 </a>
 
 
